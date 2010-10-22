@@ -10,7 +10,9 @@ help:
 html:
 	doxygen doc/bbgl.doxyfile
 	@echo
-	@echo "Build finished.  The HTML pages of the documentation are in "
+	@echo "Build finished.  The HTML pages of the documentation are in the directory doc/html/"
 
 clean:
 	@echo "nothing to be removed yet"
+	@echo
+	@echo "Directory cleaned.  The executable and object files have been removed."
